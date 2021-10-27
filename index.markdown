@@ -5,4 +5,9 @@
 layout: home
 ---
 
-I'm Luca Brigada Villa
+I am a PhD student in [Linguistic Sciences](https://phd-sl.unibg.it/en/program) at University of Bergamo and University of Pavia under the supervision of [professor Silvia Luraghi](https://studiumanistici.unipv.it/?pagina=docenti&id=68). Before starting my PhD in 2021, I obtained a MA in [Theoretical and Applied Linguistics](https://studiumanistici.unipv.it/?pagina=p&titolo=CdLM-Linguistica-teorica) at University of Pavia with a thesis entitled *The influence of areal factors on word order: a statistical approach*.
+
+My research interests are:
+* NLP
+* Semantic Role Labeling
+* Language Typology
