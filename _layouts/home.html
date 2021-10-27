@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div class="wrapper">
+      
+        <div style="display:block; width:100%;">
+          
+          <div style="width:30%; float: left; display: inline-block;" align="left">
+            
+            <div>
+              <img class="circular--square" src="img.jpg" width="70%" align="center">
+            </div>
+            
+            <br>
+            
+            <div align="center" style="float:left;padding-left:20px">
+
+              <li style="list-style-type:none;">
+                <a itemprop="sameAs" href="mailto:luca.brigadavilla@unibg.it">
+                  <i class="fas fa-envelope fa-lg" style="color:#808080"></i>
+                </a>
+              
+                <a itemprop="sameAs" href="https://twitter.com/bavagliladri">
+                  <i class="fab fa-twitter fa-lg" style="color:#808080"></i>
+                </a>
+              
+                <a itemprop="sameAs" href="https://github.com/bavagliladri">
+                  <i class="fab fa-github  fa-lg" style="color:#808080"></i>
+                </a>
+                
+                <a itemprop="sameAs" href="">
+                  <i class="fas fa-address-card fa-lg" style="color:#808080"></i>
+                </a>
+              </li>
+      
+            </div>
+          </div>
+          
+          <div style="width:70%; float: center; display: inline-block;">
+            {{ content }}
+          </div>
+        
+        </div>
+        
+      </div>
+
+
+  </div>
